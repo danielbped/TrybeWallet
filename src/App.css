@@ -1,0 +1,148 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(32, 175, 156);
+  color: rgb(187, 255, 0);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.header a {
+  color: rgb(187, 255, 0);
+  text-decoration: none;
+}
+
+.user-info {
+  display: flex;
+}
+
+.user-email {
+  margin-right: 1rem;
+}
+
+.user-expense {
+  margin-left: 0.5rem;
+}
+
+.user-email , .user-expense {
+  align-self: center;
+  font-weight: 700;
+}
+
+.wallet-table {
+  text-align: center;
+  width: 100%;
+}
+
+.wallet-header {
+  text-align: center;
+}
+
+.wallet-header input , label , select {
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+
+.table-head , .table-header {
+  padding: 0.5rem;
+}
+
+.main-login {
+  align-items: center;
+  background-color: rgb(32, 175, 156);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login {
+  align-items: center;
+  background-color: rgb(52, 165, 52);
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  min-width: 25vw;
+}
+
+.login-title {
+  color: rgb(187, 255, 0);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.email-input , .login-button , .password-input {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.login-button {
+  background-color: rgb(187, 255, 0);
+  color: rgb(52, 165, 52);
+  font-weight: 700;
+}
+
+.login-button:disabled {
+  opacity: 0.5;
+}
+
+.email-input:focus , .password-input:focus {
+  border: 0 none;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.login-button:hover {
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: rgb(52, 165, 52);
+  color: rgb(187, 255, 0);
+}
+
+.delete-btn {
+  background-color: rgb(235, 63, 63);
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.edit-btn {
+  background-color: rgb(236, 236, 86);
+  color: rgb(56, 53, 53);
+  margin-right: 0.2rem;
+}
+
+.btn-add , .delete-btn , .edit-btn {
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 0.5rem;
+  transition: 500ms;
+}
+
+.logout {
+  align-self: center;
+  font-weight: 700;
+  transition: 500ms;
+}
+
+.delete-btn:hover , .btn-add:hover , .edit-btn:hover , .logout:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+th , thead , td , tr {
+  border: 1px solid lightgray;
+  text-align: center;
+}
