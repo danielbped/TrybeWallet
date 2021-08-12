@@ -1,7 +1,7 @@
 # Projeto [TrybeWallet](https://github.com/tryber/sd-012-project-trybewallet/pull/19)
   - Módulo 2: Desenvolvimento Front-end
   - Bloco 16: Gerenciamento de estado com Redux
-# Requisitos
+### Requisitos
 - [x] Crie uma página inicial de login com os seguintes campos e características
 - [x] Realize as seguintes verificações nos campos de email, senha e botão
 - [x] Utilize o Redux para salvar no estado global as informações da pessoa logada
